@@ -20,7 +20,3 @@ end
 def reduce_to_total (array, starting_point)
   return array.reduce(starting_point) { |total, starting_point| total + starting_point}
 end
-def reduce_to_all_true(source_array)
-  return source_array.any? {|"true"|}
-
-end
